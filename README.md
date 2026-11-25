@@ -6,7 +6,7 @@
   <a href="https://github.com/aywalh/siphon/releases/latest"><img src="https://img.shields.io/github/v/release/aywalh/siphon?style=for-the-badge&color=007AFF&label=latest" alt="latest release"></a>
   <a href="https://github.com/aywalh/siphon/releases"><img src="https://img.shields.io/github/downloads/aywalh/siphon/total?style=for-the-badge&color=34C759" alt="downloads"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1d1d1f?style=for-the-badge&logo=windows" alt="Windows 10 / 11">
-  <img src="https://img.shields.io/badge/Brave%20%C2%B7%20Chrome%20%C2%B7%20Edge-1d1d1f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Brave, Chrome, Edge">
+  <img src="https://img.shields.io/badge/Brave%20%C2%B7%20Chrome%20%C2%B7%20Edge%20%C2%B7%20Opera-1d1d1f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Brave, Chrome, Edge, Opera">
 </p>
 
 <h3 align="center">
@@ -41,13 +41,17 @@ Die Dateien landen in **`Downloads\Siphon`**.
 2. Im Ordner **`INSTALL.bat`** doppelklicken.
    Das Skript installiert alles, was fehlt: Python, ffmpeg, yt-dlp, gallery-dl und deno.
    Fragt es nach der Python-Installation, ob du es nochmal starten sollst? Dann einfach nochmal doppelklicken.
+   Danach öffnet sich ein **30-Sekunden-Video**, das die nächsten Schritte zeigt. Schau es dir an, es lohnt sich! 😉
 3. Den Browser öffnen:
    - Brave: `brave://extensions`
    - Chrome: `chrome://extensions`
    - Edge: `edge://extensions`
+   - Opera: `opera://extensions`
 
    Dort den **Entwicklermodus** einschalten, auf **Entpackte Erweiterung laden** klicken und den **Siphon**-Ordner auswählen.
 4. Siphon in der Symbolleiste anpinnen (🧩 → 📌), das Popup öffnen und auf **Start Siphon** klicken.
+
+<p align="center"><img src="assets/tutorial.png" alt="Das Installations-Video" width="80%"></p>
 
 > [!TIP]
 > Windows SmartScreen meldet „Der Computer wurde durch Windows geschützt“? Klick auf **Weitere Informationen** und dann auf **Trotzdem ausführen**. Das kommt, weil `INSTALL.bat` nicht signiert ist.
