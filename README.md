@@ -38,20 +38,22 @@ Die Dateien landen in **`Downloads\Siphon`**.
 
 1. **[Siphon.zip herunterladen](https://github.com/aywalh/siphon/releases/latest/download/Siphon.zip)** und entpacken.
    Leg den Ordner an einen festen Platz, zum Beispiel `Dokumente\Siphon`. Er bleibt dort, denn der Browser lädt Siphon direkt aus diesem Ordner.
-2. Im Ordner **`INSTALL.bat`** doppelklicken.
-   Das Skript installiert alles, was fehlt: Python, ffmpeg, yt-dlp, gallery-dl und deno.
-   Fragt es nach der Python-Installation, ob du es nochmal starten sollst? Dann einfach nochmal doppelklicken.
-   Danach öffnet sich ein **30-Sekunden-Video**, das die nächsten Schritte zeigt. Schau es dir an, es lohnt sich! 😉
-3. Den Browser öffnen:
-   - Brave: `brave://extensions`
-   - Chrome: `chrome://extensions`
-   - Edge: `edge://extensions`
-   - Opera: `opera://extensions`
-
-   Dort den **Entwicklermodus** einschalten, auf **Entpackte Erweiterung laden** klicken und den **Siphon**-Ordner auswählen.
+2. Im Ordner **`INSTALL.bat`** doppelklicken. Es öffnet sich ein Fenster:
+   - **Links** läuft ein 30-Sekunden-Video, das jeden Klick zeigt. Erst ohne Ton; mit dem ▶ in der Mitte startet es von vorn mit Ton.
+   - **Rechts** auf **Install** klicken. Siphon richtet alles ein, was fehlt: Python, ffmpeg, yt-dlp, gallery-dl und deno.
+3. Fertig? Dann erscheinen rechts Kacheln für jeden Browser auf deinem PC (Brave, Chrome, Edge, Opera, Vivaldi).
+   Ein Klick öffnet direkt die Erweiterungsseite des Browsers. Dort den **Entwicklermodus** einschalten, auf **Entpackte Erweiterung laden** klicken und den **Siphon**-Ordner auswählen.
+   Den Ordner zeigt dir der Knopf **Open the Siphon folder**.
 4. Siphon in der Symbolleiste anpinnen (🧩 → 📌), das Popup öffnen und auf **Start Siphon** klicken.
 
-<p align="center"><img src="assets/tutorial.png" alt="Das Installations-Video" width="80%"></p>
+<p align="center"><img src="assets/setup.png" alt="Das Installations-Fenster: links das Video, rechts die Installation" width="100%"></p>
+
+<details>
+<summary>Kein Fenster? So geht es von Hand</summary>
+
+Im Ordner `Siphon\helper` die Datei `install.bat` doppelklicken. Sie macht dasselbe in einem Konsolenfenster. Die Erweiterungsseite findest du unter `brave://extensions`, `chrome://extensions`, `edge://extensions` oder `opera://extensions`.
+
+</details>
 
 > [!TIP]
 > Windows SmartScreen meldet „Der Computer wurde durch Windows geschützt“? Klick auf **Weitere Informationen** und dann auf **Trotzdem ausführen**. Das kommt, weil `INSTALL.bat` nicht signiert ist.
