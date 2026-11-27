@@ -20,7 +20,9 @@
 
 - 🎬 **Videos** in bis zu 4K. YouTube, TikTok, Instagram, Pinterest, X, Reddit, Twitch, Vimeo, Facebook und über 1800 weitere Seiten.
 - 🎵 **Audio als MP3** mit Cover und Titel. Ideal für Musik, Podcasts, SoundCloud und Bandcamp.
-- 🖼️ **Bilder** in der größten Auflösung, die eine Seite hat. Ein einzelnes Bild oder alle auf einmal.
+- 🖼️ **Bilder** in der größten Auflösung, die eine Seite hat. Ein Klick wählt aus, dann **Save**, **Copy** oder **Drag**.
+- 📋 **Copy & Drag:** Fertige Downloads mit **Copy** kopieren und mit Strg+V einfügen. Oder Bild bzw. Titel einfach direkt aus dem Popup in Discord, einen Chat oder einen Ordner ziehen.
+- 👀 **Vorschau:** Videos auf der Seite und deine Downloads zeigen ein Vorschaubild. Beim Drüberfahren läuft eine große Vorschau, ohne Ton.
 - 📸 **TikTok-Fotoposts** werden zu einem Video mit Ton.
 - 🖱️ **Rechtsklick** auf ein Video, Bild oder Audio → *Siphon this …*. Das Popup brauchst du dafür nicht.
 - 🔐 **Private Inhalte**, die du selbst sehen darfst, zum Beispiel Videos mit Altersgrenze. Dafür nutzt Siphon deinen Login aus dem Browser.
@@ -28,9 +30,15 @@
 
 ## 🖥️ So sieht es aus
 
-<p align="center"><img src="assets/popup.png" alt="Siphon Popup" width="372"></p>
+<p align="center">
+  <img src="assets/popup.png" alt="Siphon Popup: Video" width="260">&nbsp;
+  <img src="assets/images.png" alt="Siphon Popup: Bilder auswählen" width="260">&nbsp;
+  <img src="assets/downloads.png" alt="Siphon Popup: Downloads" width="260">
+</p>
 
 Öffne eine Seite mit einem Video und klick auf das Siphon-Symbol. Dann wählst du **Video**, **Audio** oder **Images**, stellst die Qualität ein und klickst auf **Save**. Fertig.
+
+Im Tab **⬇** siehst du deine Downloads. Von dort kopierst du sie mit **Copy** oder ziehst sie direkt raus.
 
 Die Dateien landen in **`Downloads\Siphon`**.
 
